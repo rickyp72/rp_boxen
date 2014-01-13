@@ -2,7 +2,7 @@ class people::rickyp72 {
   notify { 'Hello Ricky': }
   include vagrant
 
-  include sx::dock::autohide
+  include osx::dock::autohide
 
   case $::hostname {
     'users-Mac': {
