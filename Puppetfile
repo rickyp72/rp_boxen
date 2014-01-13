@@ -52,7 +52,7 @@ github "ruby",       "6.7.2"
 github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
-github "vagrant"
+github "vagrant",    "1.4.2"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
