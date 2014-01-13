@@ -17,4 +17,12 @@ class people::rickyp72 {
 	notify { "This is the default!": }
    }
  }
+
+   package {
+   	[
+   	  'nmap',
+   	  'emacs',
+   	  ]:
+   	  ensure => 'present',
+   }
 }
