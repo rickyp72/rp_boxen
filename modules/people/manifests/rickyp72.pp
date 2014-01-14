@@ -8,13 +8,13 @@ class people::rickyp72 {
 		class { 'osx::dock::icon_size':
 		  size => 20
 		}
-		   package {
-	   	[
-	   	  'nmap',
-	   	  'emacs',
-	   	  ]:
-	   	  ensure => 'present',
-	   }
+		  #  package {
+	   # 	[
+	   # 	  'nmap',
+	   # 	  'emacs',
+	   # 	  ]:
+	   # 	  ensure => 'present',
+	   # }
     }
 
     'Rickys-MacBook-Pro-2': {
