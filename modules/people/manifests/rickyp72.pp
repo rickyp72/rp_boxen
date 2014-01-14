@@ -2,9 +2,9 @@ class people::rickyp72 {
   notify { 'Hello Ricky': }
 
   case $::hostname {
-  	  include vagrant
-  	  include osx::dock::dim_hidden_apps
     'users-Mac': {
+    	include vagrant
+  	    include osx::dock::dim_hidden_apps
 		class { 'osx::dock::icon_size':
 		  size => 20
 		}
