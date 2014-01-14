@@ -8,6 +8,10 @@ class people::rickyp72 {
 		class { 'osx::dock::icon_size':
 		  size => 20
 		}
+			class { 'osx::dock::icon_size':
+		  size => 20
+		}
+
 		   package {
 	   	[
 	   	  'nmap',
@@ -16,16 +20,13 @@ class people::rickyp72 {
 	   	  ensure => 'present',
 	   }
     }
+
     'Rickys-MacBook-Pro-2': {
       notify { "This is my Macbook Pro Boxen": }
     }
     default: {
 	  notify { "This is the default!": }
    }
-   	# ... or set your own
-	class { 'osx::dock::icon_size':
-	  size => 20
-	}
  }
 
    package {
