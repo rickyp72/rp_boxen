@@ -4,5 +4,5 @@ class people::rickyp72 {
   include sublime_text_2
   include skype
   include adium
-
+  include virtualbox
 }
