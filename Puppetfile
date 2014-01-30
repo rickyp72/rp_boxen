@@ -129,4 +129,4 @@ github "vim",            "1.0.5"
 github "vmware_fusion",  "1.1.0"
 github "wget",           "1.0.0"
 github "x-dispatch",     "1.0.1", :repo => "bradleywright/puppet-x-dispatch"
-github "zsh",  
+github "zsh"
