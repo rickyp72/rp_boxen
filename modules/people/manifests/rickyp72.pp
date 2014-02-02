@@ -6,6 +6,7 @@ class people::rickyp72 {
   #include iterm2
   include evernote
   include firefox
+  include chrome
  # include adium
  # include virtualbox
 }
