@@ -3,7 +3,7 @@ class people::rickyp72 {
   #include vagrant
   include sublime_text_2
   include skype
-  #include iTerm2
+  include iterm2
   include evernote
  # include adium
  # include virtualbox
