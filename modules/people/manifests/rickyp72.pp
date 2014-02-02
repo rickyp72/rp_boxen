@@ -7,6 +7,8 @@ class people::rickyp72 {
   include evernote
   include firefox
   include chrome
+  include googledrive
+  include dropbox
  # include adium
  # include virtualbox
 }
