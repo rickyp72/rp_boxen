@@ -10,6 +10,5 @@ class people::rickyp72 {
   include googledrive
   include dropbox
   # include vmware_fusion
- # include adium
  # include virtualbox
 }
