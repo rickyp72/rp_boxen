@@ -9,7 +9,7 @@ class people::rickyp72 {
   include chrome
   include googledrive
   include dropbox
-  include vmware_fusion
+  # include vmware_fusion
  # include adium
  # include virtualbox
 }
