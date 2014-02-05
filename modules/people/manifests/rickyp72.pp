@@ -11,4 +11,13 @@ class people::rickyp72 {
   include dropbox
   # include vmware_fusion
  # include virtualbox
+
+   class { 'osx::global::key_repeat_delay':
+    delay => 200
+  }
+
+  class { 'osx::global::key_repeat_rate':
+    rate => 400
+  }
+  
 }
