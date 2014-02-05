@@ -58,7 +58,7 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 
 #github "vagrant"
-#github "osx"
+github "osx"
 
 ## GDS Optional modules
 github "android",        "1.0.0"
