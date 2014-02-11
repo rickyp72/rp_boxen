@@ -1,6 +1,6 @@
 class people::rickyp72 {
   notify { 'Hello Ricky': }
-  #include vagrant
+  include vagrant
   include sublime_text_2
   include skype
   #include iterm2
@@ -10,7 +10,7 @@ class people::rickyp72 {
   include googledrive
   include dropbox
   # include vmware_fusion
- # include virtualbox
+  include virtualbox
 
    class { 'osx::global::key_repeat_delay':
     delay => 200
