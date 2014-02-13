@@ -11,6 +11,7 @@ class people::rickyp72 {
   include dropbox
   # include vmware_fusion
   include virtualbox
+  include dnsmasq::disable
 
    class { 'osx::global::key_repeat_delay':
     delay => 200
@@ -18,6 +19,12 @@ class people::rickyp72 {
 
   class { 'osx::global::key_repeat_rate':
     rate => 400
+  }
+
+    class dnsmasq::disable inherits dnsmasq {
+    Service['dev.dnsmasq'] {
+      ensure => stopped,
+    }
   }
   
 }
