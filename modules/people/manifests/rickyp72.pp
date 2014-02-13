@@ -10,16 +10,10 @@ class people::rickyp72 {
   include googledrive
   include dropbox
   # include vmware_fusion
-  include virtualbox
+  #include virtualbox
   include dnsmasq::disable
+  include wget
 
-   class { 'osx::global::key_repeat_delay':
-    delay => 200
-  }
-
-  class { 'osx::global::key_repeat_rate':
-    rate => 400
-  }
 
     class dnsmasq::disable inherits dnsmasq {
     Service['dev.dnsmasq'] {
